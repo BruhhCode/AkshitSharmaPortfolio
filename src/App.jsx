@@ -1,13 +1,12 @@
-import React from 'react'
 import Header from './components/Header'
 import About from './components/About'
 import Work from './components/Work'
 import Contact from './components/Contact'
-import './styles/portfolio.css'
+import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <Header />
 
       <main>
@@ -16,8 +15,9 @@ function App() {
         <Contact />
       </main>
 
-      <footer className="pf-footer" style={{padding:'32px 0',textAlign:'center',color:'var(--muted)'}}>
-        <div className="container">© {new Date().getFullYear()} Akki Photography — All rights reserved</div>
+      <footer className="py-8 text-center text-slate-400">
+        <div className="mx-auto max-w-5xl px-6">© {new Date().getFullYear()} Akki Photography — All rights reserved</div>
+        <div className="mx-auto max-w-5xl px-6">Made with Love by <span className='text-yellow-400 cursor-pointer'><a href='https://lokeshdhariyal.me' >Loki</a></span></div>
       </footer>
     </div>
   )
