@@ -3,25 +3,25 @@ import React, { useMemo, useRef, useState, useEffect } from 'react'
 const GALLERY = {
   Portrait: [
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877834/DSC03368-2_hoqtyk.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877833/DSC03356_hxd875.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877833/DSC03356_hxd875.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC03981_qhlfwf.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC06253_lpa0mi.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877823/DSC03991_k1wjff.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877838/DSC03292_kwk3lp.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877823/DSC03991_k1wjff.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877838/DSC03292_kwk3lp.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC07456_xps44p.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC07438_az3auz.jpg'
   ],
   Concert: [
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877802/DSC_0575_jiseyh.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877797/IMG_7081_jotpbp.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877796/DSC_0503_1_clhwgm.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877796/DSC_0503_1_clhwgm.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877806/DSC_0499_flpjmo.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877796/DSC_0531_lylkm9.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877796/DSC_0531_lylkm9.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877792/IMG_5741_eha65a.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877795/DSC_0577_1_z5dri5.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/IMG_7073_jjxfqd.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/DSC_0670_y1czfd.jpg',
-    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/IMG_7099_keq3zm.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/IMG_7073_jjxfqd.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/DSC_0670_y1czfd.jpg',
+    // 'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/IMG_7099_keq3zm.jpg',
     'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877809/_MG_0635_kjh7hr.jpg'
   ],
   Product: [
@@ -33,12 +33,12 @@ const GALLERY = {
   ]
 }
 
-const allImages = Object.values(GALLERY).flat()
+// Start with Portrait only (no "All" view)
 
 const Work = () => {
-  const genres = useMemo(() => ['All', ...Object.keys(GALLERY)], [])
-  const [genre, setGenre] = useState('All')
-  const [items, setItems] = useState(allImages)
+  const genres = useMemo(() => Object.keys(GALLERY), [])
+  const [genre, setGenre] = useState('Portrait')
+  const [items, setItems] = useState(GALLERY['Portrait'] || [])
 
   // modal state
   const [open, setOpen] = useState(false)
@@ -46,7 +46,7 @@ const Work = () => {
   const scrollRef = useRef(null)
 
   useEffect(() => {
-    setItems(genre === 'All' ? allImages : GALLERY[genre])
+    setItems(GALLERY[genre] || [])
   }, [genre])
 
   useEffect(() => {
@@ -161,10 +161,10 @@ const Work = () => {
               <figcaption className="absolute left-0 right-0 bottom-0 p-4 bg-gradient-to-t from-black/60 to-transparent text-white">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="text-sm font-semibold">{genre === 'All' ? `Image ${i + 1}` : `${genre} ${i + 1}`}</h3>
+                    <h3 className="text-sm font-semibold">{`${genre} ${i + 1}`}</h3>
                     <p className="text-xs text-slate-200">Click to open viewer</p>
                   </div>
-                  <span className="text-xs bg-white/8 text-white px-2 py-1 rounded">{genre === 'All' ? '' : genre}</span>
+                  <span className="text-xs bg-white/8 text-white px-2 py-1 rounded">{genre}</span>
                 </div>
               </figcaption>
             </figure>

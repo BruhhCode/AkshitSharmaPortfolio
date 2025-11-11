@@ -9,7 +9,7 @@ const Header = () => {
            */}
            <img src="/Icon.jpg" alt="" className='h-12 w-12' />
           <div className="hidden sm:block">
-            <h1 className="text-sm font-semibold leading-tight">Akshit Photography</h1>
+            <h1 className="text-sm font-semibold leading-tight">Akshit Sharma Photography</h1>
             <p className="text-xs text-slate-300">Commercial Photographer</p>
           </div>
         </div>

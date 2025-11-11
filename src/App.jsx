@@ -16,7 +16,7 @@ function App() {
       </main>
 
       <footer className="py-8 text-center text-slate-400">
-        <div className="mx-auto max-w-5xl px-6">© {new Date().getFullYear()} Akki Photography — All rights reserved</div>
+        <div className="mx-auto max-w-5xl px-6">© {new Date().getFullYear()} Akshit Sharma Photography — All rights reserved</div>
         <div className="mx-auto max-w-5xl px-6">Made with Love by <span className='text-yellow-400 cursor-pointer'><a href='https://lokeshdhariyal.me' >Loki</a></span></div>
       </footer>
     </div>
