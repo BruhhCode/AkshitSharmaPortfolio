@@ -2,23 +2,34 @@ import React, { useMemo, useRef, useState, useEffect } from 'react'
 
 const GALLERY = {
   Portrait: [
-    'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1519340333755-1b4a6d4b7b44?w=1200&q=80&auto=format&fit=crop'
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877834/DSC03368-2_hoqtyk.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877833/DSC03356_hxd875.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC03981_qhlfwf.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC06253_lpa0mi.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877823/DSC03991_k1wjff.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877838/DSC03292_kwk3lp.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC07456_xps44p.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC07438_az3auz.jpg'
   ],
-  Nature: [
-    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80&auto=format&fit=crop'
+  Concert: [
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877802/DSC_0575_jiseyh.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877797/IMG_7081_jotpbp.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877796/DSC_0503_1_clhwgm.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877806/DSC_0499_flpjmo.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877796/DSC_0531_lylkm9.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877792/IMG_5741_eha65a.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877795/DSC_0577_1_z5dri5.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/IMG_7073_jjxfqd.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/DSC_0670_y1czfd.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877784/IMG_7099_keq3zm.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877809/_MG_0635_kjh7hr.jpg'
   ],
   Product: [
-    'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1526178615830-0a7a1a7a6f0a?w=1200&q=80&auto=format&fit=crop'
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877809/5_fhvwuk.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877807/IMG-20251029-WA0051_bmsqbf.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877816/DSC05237_rve5p1.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC05446_xcztd2.jpg',
+    'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC05364_uk3itr.jpg'
   ]
 }
 
@@ -141,7 +152,7 @@ const Work = () => {
           </div>
         </div>
         </div>
-  <div className="mx-auto max-w-6xl pt-10 h-220 overflow-y-scroll scrollbar-custom">
+  <div className="mx-auto max-w-6xl  h-145 overflow-y-scroll scrollbar-custom">
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {items.map((src, i) => (
@@ -153,7 +164,7 @@ const Work = () => {
                     <h3 className="text-sm font-semibold">{genre === 'All' ? `Image ${i + 1}` : `${genre} ${i + 1}`}</h3>
                     <p className="text-xs text-slate-200">Click to open viewer</p>
                   </div>
-                  <span className="text-xs bg-white/8 text-white px-2 py-1 rounded">{genre === 'All' ? 'Mixed' : genre}</span>
+                  <span className="text-xs bg-white/8 text-white px-2 py-1 rounded">{genre === 'All' ? '' : genre}</span>
                 </div>
               </figcaption>
             </figure>

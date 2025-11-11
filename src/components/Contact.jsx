@@ -47,12 +47,12 @@ const Contact = () => {
           {/* Info card */}
           <aside className="lg:col-span-1 bg-gradient-to-br from-slate-800/60 to-slate-900/50 p-6 rounded-2xl shadow-md">
             <h3 className="text-xl font-semibold mb-2">Let's collaborate</h3>
-            <p className="text-slate-300 mb-4">Available for commissions, brand work and teaching. Based in New York — available worldwide for on-location shoots.</p>
+            <p className="text-slate-300 mb-4">Available for commissions, brand work and Shooting. Based in Dehradun — available for on-location shoots.</p>
 
             <ul className="space-y-3 text-sm">
-              <li><strong className="text-slate-100">Email:</strong> <a href="mailto:akki@example.com" className="text-yellow-300 underline">akki@example.com</a></li>
-              <li><strong className="text-slate-100">Phone:</strong> <span className="text-slate-300">+1 (555) 123-4567</span></li>
-              <li><strong className="text-slate-100">Location:</strong> <span className="text-slate-300">New York, USA</span></li>
+              <li><strong className="text-slate-100">Email:</strong> <a href="mailto:akshitsharmaphotography04@gmail.com" className="text-yellow-300 underline">akki@example.com</a></li>
+              <li><strong className="text-slate-100">Phone:</strong> <span className="text-slate-300">+91 7876156503</span></li>
+              <li><strong className="text-slate-100">Location:</strong> <span className="text-slate-300">Dehradun, Uttarakhand</span></li>
             </ul>
 
             <div className="mt-6">
@@ -67,7 +67,6 @@ const Contact = () => {
 
             <div className="mt-6 flex gap-3">
               <a href="#work" className="inline-block bg-yellow-400 text-slate-900 font-semibold px-4 py-2 rounded-lg">See portfolio</a>
-              <a href="/Akki_CV.pdf" className="inline-block text-sm text-slate-200 border border-white/8 px-3 py-2 rounded-lg">Download CV</a>
             </div>
           </aside>
 
@@ -108,7 +107,7 @@ const Contact = () => {
             </div>
 
             <div className="mt-6 flex items-center justify-between">
-              <div className="text-sm text-slate-300">Prefer not to use the form? Email me directly at <a href="mailto:akki@example.com" className="text-yellow-300 underline">akki@example.com</a></div>
+              <div className="text-sm text-slate-300">Prefer not to use the form? Email me directly at <a href="mailto:akshitsharmaphotography04@gmail.com" className="text-yellow-300 underline">akki@example.com</a></div>
               <button type="submit" className="bg-yellow-400 text-slate-900 font-semibold px-5 py-2 rounded-lg shadow">Send message</button>
             </div>
           </form>

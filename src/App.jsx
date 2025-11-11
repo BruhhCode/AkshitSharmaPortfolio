@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
+    <div className="min-h-screen bg-gradient-to-t from-gray-900 via-gray-900 to-gray-950 text-white">
       <Header />
 
       <main>

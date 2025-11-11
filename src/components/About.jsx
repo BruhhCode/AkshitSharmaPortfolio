@@ -5,7 +5,7 @@ const ServiceCard = ({ title, desc, icon }) => (
     <div className="w-12 h-12 rounded-lg bg-slate-700/40 flex items-center justify-center mb-4 text-yellow-300">{icon}</div>
     <h4 className="text-lg font-semibold mb-2">{title}</h4>
     <p className="text-sm text-slate-300 mb-4">{desc}</p>
-    <a href="#contact" className="inline-block text-sm font-semibold text-white border border-white/10 px-3 py-1 rounded-md hover:bg-white/5">Book a consult</a>
+    {/* <a href="#contact" className="inline-block text-sm font-semibold text-white border border-white/10 px-3 py-1 rounded-md hover:bg-white/5">Book a consult</a> */}
   </div>
 )
 
@@ -15,7 +15,7 @@ const About = () => {
       {/* Hero */}
       <div className="mx-auto max-w-6xl px-6 grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-4">
-          <p className="text-sm text-yellow-300 font-semibold">Hi, I’m Akki</p>
+          <p className="text-sm text-yellow-300 font-semibold">Hi, I’m Akshit Sharma</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">Story-driven photography that elevates brands</h1>
           <p className="text-slate-300 text-lg">I create imagery with intention—carefully composed, color graded, and crafted to tell your story. I work with brands, agencies, and individuals to deliver visual work that performs.</p>
 
@@ -26,31 +26,31 @@ const About = () => {
 
           <div className="mt-6 flex gap-3">
             <div className="text-center">
-              <div className="text-2xl font-bold">10+</div>
+              <div className="text-2xl font-bold">4+</div>
               <div className="text-xs text-slate-300">Years experience</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold">500+</div>
+              <div className="text-2xl font-bold">40+</div>
               <div className="text-xs text-slate-300">Projects</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold">20+</div>
-              <div className="text-xs text-slate-300">Awards</div>
+              <div className="text-2xl font-bold">5+</div>
+              <div className="text-xs text-slate-300">brands</div>
             </div>
           </div>
         </div>
 
         <figure className="relative">
-          <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=1200&q=80&auto=format&fit=crop" alt="Portrait of Akki" className="rounded-3xl shadow-2xl w-full h-full object-cover" />
+          <img src="https://res.cloudinary.com/dn3jwglqf/image/upload/v1762879465/akkiPro_iet5uo.jpg" alt="Portrait of Akki" className="rounded-3xl shadow-2xl w-full h-full object-cover" />
           <figcaption className="absolute left-6 bottom-6 bg-gradient-to-br from-slate-800/70 to-slate-900/40 backdrop-blur px-4 py-3 rounded-xl">
-            <h3 className="text-sm font-semibold">Akki — Photographer</h3>
-            <p className="text-xs text-slate-300">Available worldwide • akki@example.com</p>
+            <h3 className="text-sm font-semibold">Akshit Sharma — Photographer</h3>
+            <p className="text-xs text-slate-300">Available in Dehradun • akshitsharmaphotography04@gmail.com</p>
           </figcaption>
         </figure>
       </div>
 
       {/* About me (detailed) */}
-      <div className="mx-auto max-w-6xl px-6 mb-12">
+      <div className="mx-auto max-w-6xl px-6 mb-12 mt-3">
         <div className="bg-slate-800/30 p-8 rounded-2xl">
           <h2 id="about-heading" className="text-2xl font-bold mb-4">About me</h2>
           <div className="grid md:grid-cols-2 gap-6">
