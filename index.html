@@ -2,9 +2,51 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Icon.jpg" />
+    <link rel="icon" type="image/jpg" href="/Icon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Akshit Sharma</title>
+    <meta name="description" content="Akshit Sharma - Commercial Photographer specializing in portraits, concerts, and product photography. Based in Dehradun, Uttarakhand." />
+    <meta name="keywords" content="photographer, commercial photography, portrait, concert, product photography, Dehradun" />
+    <meta name="author" content="Akshit Sharma" />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Akshit Sharma Photography" />
+    <meta property="og:description" content="Commercial Photographer specializing in portraits, concerts, and product photography." />
+    <meta property="og:image" content="/Icon.jpg" />
+    
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://res.cloudinary.com" />
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    
+    <title>Akshit Sharma | Commercial Photographer</title>
+    
+    <style>
+      /* Critical CSS for above-the-fold content */
+      body {
+        margin: 0;
+        background: #0a0a0f;
+        color: white;
+      }
+      
+      /* Loading animation */
+      #root:empty::before {
+        content: '';
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        margin: -20px 0 0 -20px;
+        border: 3px solid rgba(251, 191, 36, 0.2);
+        border-top-color: #fbbf24;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
