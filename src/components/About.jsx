@@ -155,7 +155,7 @@ const About = () => {
             <div className="absolute -inset-4 bg-gradient-to-br from-amber-400/20 via-transparent to-purple-600/10 rounded-3xl blur-2xl opacity-60" />
             
             <img 
-              src="https://res.cloudinary.com/dn3jwglqf/image/upload/c_fill,w_600,h_750,q_auto,f_auto/v1762879465/akkiPro_iet5uo.jpg" 
+              src="https://res.cloudinary.com/dlimc6j71/image/upload/v1775106082/WhatsApp_Image_2026-04-02_at_10.30.50_vmlkjv.jpg" 
               alt="Portrait of Akshit Sharma" 
               className="relative rounded-2xl shadow-2xl w-full h-full object-cover border border-white/10 transition-transform duration-500 group-hover:scale-105" 
               loading="eager"
