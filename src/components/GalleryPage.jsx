@@ -12,7 +12,7 @@ const GALLERY_DATA = {
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877834/DSC03368-2_hoqtyk.jpg',
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC03981_qhlfwf.jpg',
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC06253_lpa0mi.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC07456_xps44p.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096918/DSC03510.JPG_xcrdnj.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775061972/DSC03464.JPG_pd9w1b.jpg'
     ],
     accent: 'amber'
@@ -22,12 +22,16 @@ const GALLERY_DATA = {
     subtitle: 'Live Energy & Performance',
     description: 'Dynamic concert photography capturing the raw energy, dramatic lighting, and electric atmosphere of live music performances.',
     images: [
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877802/DSC_0575_jiseyh.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877797/IMG_7081_jotpbp.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877806/DSC_0499_flpjmo.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877792/IMG_5741_eha65a.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877795/DSC_0577_1_z5dri5.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877809/_MG_0635_kjh7hr.jpg'
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096914/DSC05063.jpg_qytsju.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096916/DSC03855.jpg_jlfh1t.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096917/DSC03698.jpg_xrek2l.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096912/DSC03692.jpg_slvjwy.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096913/DSC04809_1.jpg_ch7tkq.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096914/DSC04848.jpg_xwyedg.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096923/DSC04780_1.jpg_tc1ilo.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096928/DSC03701.jpg_ezumhh.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775061968/DSC05095_1_-_23-11-2025_22-42-08_c6qobp.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096916/DSC05145.jpg_n9x9sg.jpg'
     ],
     accent: 'purple'
   },
