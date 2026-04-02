@@ -202,3 +202,15 @@ html {
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
 }
+
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e, #16213e);
+  background-size: 300% 300%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
