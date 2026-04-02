@@ -13,7 +13,7 @@ const GALLERY_DATA = {
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC03981_qhlfwf.jpg',
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877826/DSC06253_lpa0mi.jpg',
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC07456_xps44p.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC07438_az3auz.jpg'
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775061972/DSC03464.JPG_pd9w1b.jpg'
     ],
     accent: 'amber'
   },
