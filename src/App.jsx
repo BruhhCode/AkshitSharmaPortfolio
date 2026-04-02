@@ -1,5 +1,4 @@
-import Silk from './Silk';
-
+import Silk from "./Silk";
 <Silk
   speed={5}
   scale={1}
