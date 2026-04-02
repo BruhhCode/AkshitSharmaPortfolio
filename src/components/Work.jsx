@@ -21,7 +21,7 @@ const CATEGORIES = [
     description: 'Dynamic concert photography capturing the raw energy and atmosphere of live performances.',
     cover: 'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096917/DSC03698.jpg_xrek2l.jpg',
     accent: 'from-purple-500/20 to-pink-600/30',
-    count: 6
+    count: 11
   },
   {
     id: 'product',
