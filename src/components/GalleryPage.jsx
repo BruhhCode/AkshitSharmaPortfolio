@@ -45,7 +45,11 @@ const GALLERY_DATA = {
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877807/IMG-20251029-WA0051_bmsqbf.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775104503/DSC01111_1.jpg_g6rwpy.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775104504/DSC01065.jpg_bntdo9.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC05364_uk3itr.jpg'
+      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC05364_uk3itr.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109213/T_2_qlrqt7.png',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109212/IMG-20260310-WA0017.jpg_f9qrjs.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109212/IMG-20260326-WA0026.jpg_nh5zce.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109212/IMG-20260326-WA0028.jpg_hilzrf.jpg'
     ],
     accent: 'cyan'
   }

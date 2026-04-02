@@ -25,7 +25,7 @@ const CATEGORIES = [
   },
   {
     id: 'product',
-    title: 'Product',
+    title: 'Product & Food',
     subtitle: 'Commercial Excellence',
     description: 'Clean, compelling product photography that elevates brands and drives conversions.',
     cover: 'https://res.cloudinary.com/dlimc6j71/image/upload/v1775104503/DSC01111_1.jpg_g6rwpy.jpg',
