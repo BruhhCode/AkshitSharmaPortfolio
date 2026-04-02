@@ -1,4 +1,11 @@
-import './components/aurora'
+import Aurora from './Aurora';
+  
+<Aurora
+  colorStops={["#666bff","#B19EEF","#5227FF"]}
+  blend={1}
+  amplitude={1.0}
+  speed={1}
+/>
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'motion/react'
 import Header from './components/Header'
