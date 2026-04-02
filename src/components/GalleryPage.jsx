@@ -37,7 +37,7 @@ const GALLERY_DATA = {
     accent: 'purple'
   },
   product: {
-    title: 'Product Photography',
+    title: 'Product & Food Photography',
     subtitle: 'Commercial Excellence',
     description: 'Clean, compelling product photography that elevates brands, showcases details, and drives engagement and conversions.',
     images: [
