@@ -10,7 +10,7 @@ const CATEGORIES = [
     subtitle: 'Capturing Essence',
     description: 'Expressive portraits that reveal personality and emotion through careful composition and lighting.',
     // Using Cloudinary transformation for optimized cover image
-    cover: 'https://res.cloudinary.com/dn3jwglqf/image/upload/c_fill,w_800,h_1000,q_auto,f_auto/v1762877834/DSC03368-2_hoqtyk.jpg',
+    cover: 'https://res.cloudinary.com/dlimc6j71/image/upload/v1775061972/DSC03464.JPG_pd9w1b.jpg',
     accent: 'from-amber-500/20 to-orange-600/30',
     count: 5
   },
@@ -19,7 +19,7 @@ const CATEGORIES = [
     title: 'Concert',
     subtitle: 'Live Energy',
     description: 'Dynamic concert photography capturing the raw energy and atmosphere of live performances.',
-    cover: 'https://res.cloudinary.com/dn3jwglqf/image/upload/c_fill,w_800,h_1000,q_auto,f_auto/v1762877802/DSC_0575_jiseyh.jpg',
+    cover: 'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096917/DSC03698.jpg_xrek2l.jpg',
     accent: 'from-purple-500/20 to-pink-600/30',
     count: 6
   },

@@ -410,7 +410,7 @@ const GalleryPage = () => {
                 </div>
                 
                 <div className="flex gap-2 overflow-x-auto justify-center scrollbar-hide pb-2">
-                  {galleryData.images.map((img, i) => (
+                  {galleryData.images.map((src, i) => (
                     <button
                       key={src}
                       onClick={() => scrollToImage(i)}
@@ -421,7 +421,7 @@ const GalleryPage = () => {
                       }`}
                     >
                       <img
-                        src={img.thumb}
+                        src={getThumbnailUrl(src)}
                         alt={`Thumbnail ${i + 1}`}
                         className="w-20 h-14 object-cover"
                       />
