@@ -31,7 +31,8 @@ const GALLERY_DATA = {
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096923/DSC04780_1.jpg_tc1ilo.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096928/DSC03701.jpg_ezumhh.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775061968/DSC05095_1_-_23-11-2025_22-42-08_c6qobp.jpg',
-      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096916/DSC05145.jpg_n9x9sg.jpg'
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096916/DSC05145.jpg_n9x9sg.jpg',
+      'https://res.cloudinary.com/dn3jwglqf/image/upload/c_scale,w_1400,q_auto,f_auto/v1762877795/DSC_0577_1_z5dri5.jpg'
     ],
     accent: 'purple'
   },
@@ -409,7 +410,7 @@ const GalleryPage = () => {
                 </div>
                 
                 <div className="flex gap-2 overflow-x-auto justify-center scrollbar-hide pb-2">
-                  {galleryData.images.map((src, i) => (
+                  {galleryData.images.map((img, i) => (
                     <button
                       key={src}
                       onClick={() => scrollToImage(i)}
@@ -420,7 +421,7 @@ const GalleryPage = () => {
                       }`}
                     >
                       <img
-                        src={getThumbnailUrl(src)}
+                        src={img.thumb}
                         alt={`Thumbnail ${i + 1}`}
                         className="w-20 h-14 object-cover"
                       />
