@@ -1,3 +1,4 @@
+import Aurora from './components/aurora'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'motion/react'
 import Header from './components/Header'
