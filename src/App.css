@@ -121,6 +121,18 @@ html {
   animation: gradient-shift 15s ease infinite;
 }
 
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e, #16213e);
+  background-size: 300% 300%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 /* Fade in animation */
 @keyframes fadeIn {
   from {
@@ -203,14 +215,3 @@ html {
   animation: shimmer 1.5s infinite;
 }
 
-body {
-  background: linear-gradient(135deg, #0f0f0f, #1a1a2e, #16213e);
-  background-size: 300% 300%;
-  animation: gradientMove 10s ease infinite;
-}
-
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
