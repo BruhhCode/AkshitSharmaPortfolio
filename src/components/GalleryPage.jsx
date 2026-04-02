@@ -43,8 +43,8 @@ const GALLERY_DATA = {
     images: [
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877809/5_fhvwuk.jpg',
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877807/IMG-20251029-WA0051_bmsqbf.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877816/DSC05237_rve5p1.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC05446_xcztd2.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775104503/DSC01111_1.jpg_g6rwpy.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775104504/DSC01065.jpg_bntdo9.jpg',
       'https://res.cloudinary.com/dn3jwglqf/image/upload/v1762877818/DSC05364_uk3itr.jpg'
     ],
     accent: 'cyan'

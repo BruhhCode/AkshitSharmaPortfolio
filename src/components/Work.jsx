@@ -28,7 +28,7 @@ const CATEGORIES = [
     title: 'Product',
     subtitle: 'Commercial Excellence',
     description: 'Clean, compelling product photography that elevates brands and drives conversions.',
-    cover: 'https://res.cloudinary.com/dn3jwglqf/image/upload/c_fill,w_800,h_1000,q_auto,f_auto/v1762877809/5_fhvwuk.jpg',
+    cover: 'https://res.cloudinary.com/dlimc6j71/image/upload/v1775104503/DSC01111_1.jpg_g6rwpy.jpg',
     accent: 'from-cyan-500/20 to-blue-600/30',
     count: 5
   }
