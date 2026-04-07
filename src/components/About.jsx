@@ -101,7 +101,7 @@ const About = () => {
             </motion.span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
               <span className="bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-                Story-driven photography
+                Story-driven photographer
               </span>
               <br />
               <span className="text-amber-400">that elevates brands</span>
