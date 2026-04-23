@@ -3,17 +3,3 @@ html, body, #root {
   margin: 0;
   
 }
-.color-bends-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.color-bend {
-  position: absolute;
-  width: 200%;
-  height: 200%;
-  border-radius: 50%;
-  filter: blur(100px);
-  animation: bendAnimation 20s linear infinite;
-}
