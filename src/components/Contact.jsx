@@ -341,7 +341,7 @@ const Contact = () => {
 
             <div className="mt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <p className="text-sm text-slate-500">
-                Prefer email? <a href="mailto:akshitsharmaphotography04@gmail.com" className="text-amber-400 hover:text-amber-300 transition-colors underline underline-offset-4">akshitsharmaphotography04@gmail.com</a>
+                Prefer email? <a href="mailto:aksh1t04@gmail.com" className="text-amber-400 hover:text-amber-300 transition-colors underline underline-offset-4">aksh1t04@gmail.com</a>
               </p>
               
               <button 

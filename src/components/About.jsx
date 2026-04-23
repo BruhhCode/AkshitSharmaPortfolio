@@ -167,7 +167,7 @@ const About = () => {
                 <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 <div>
                   <h3 className="text-sm font-semibold">Available for Projects</h3>
-                  <p className="text-xs text-slate-400">Dehradun • akshitsharmaphotography04@gmail.com</p>
+                  <p className="text-xs text-slate-400">Dehradun • aksh1t04@gmail.com</p>
                 </div>
               </div>
             </div>
