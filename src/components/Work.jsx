@@ -31,7 +31,8 @@ const CATEGORIES = [
     cover: 'https://res.cloudinary.com/dlimc6j71/image/upload/v1775104503/DSC01111_1.jpg_g6rwpy.jpg',
     accent: 'from-cyan-500/20 to-blue-600/30',
     count: 9
-  }
+  },
+  
 ]
 
 const CategoryCard = ({ category, index }) => {

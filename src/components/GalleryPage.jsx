@@ -32,7 +32,11 @@ const GALLERY_DATA = {
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096928/DSC03701.jpg_ezumhh.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775061968/DSC05095_1_-_23-11-2025_22-42-08_c6qobp.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775096916/DSC05145.jpg_n9x9sg.jpg',
-      'https://res.cloudinary.com/dn3jwglqf/image/upload/c_scale,w_1400,q_auto,f_auto/v1762877795/DSC_0577_1_z5dri5.jpg'
+      'https://res.cloudinary.com/dn3jwglqf/image/upload/c_scale,w_1400,q_auto,f_auto/v1762877795/DSC_0577_1_z5dri5.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1776924694/C5536.00_00_05_29.Still013.jpg_sv62a5.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1776924695/C5536.00_00_00_44.Still008_1.jpg_rgrtbc.jpg',
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1776924695/1000318333.jpg_xt1taj.jpg'
+
     ],
     accent: 'purple'
   },
