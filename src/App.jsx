@@ -1,22 +1,4 @@
 import ColorBends from './Silk';
-  
-<ColorBends
-  colors={["#ff5c7a", "#8a5cff", "#00ffd1"]}
-  rotation={90}
-  speed={0.2}
-  scale={1}
-  frequency={1}
-  warpStrength={1}
-  mouseInfluence={1}
-  noise={0.15}
-  parallax={0.5}
-  iterations={1}
-  intensity={1.5}
-  bandWidth={6}
-  transparent
-  autoRotate={0}
-  color="#A855F7"
-/>
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'motion/react'
 import Header from './components/Header'
@@ -40,7 +22,24 @@ function App() {
   const location = useLocation()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white relative">
+      <ColorBends
+        colors={["#8a5cff", "#A855F7", "#9333ea"]}
+        rotation={90}
+        speed={0.2}
+        scale={1}
+        frequency={1}
+        warpStrength={1}
+        mouseInfluence={1}
+        noise={0.15}
+        parallax={0.5}
+        iterations={1}
+        intensity={1.5}
+        bandWidth={6}
+        transparent
+        autoRotate={0}
+        className="absolute inset-0 -z-10"
+      />
       <Header />
 
       <main>
