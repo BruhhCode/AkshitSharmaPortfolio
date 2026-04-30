@@ -53,7 +53,8 @@ const GALLERY_DATA = {
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109213/T_2_qlrqt7.png',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109212/IMG-20260310-WA0017.jpg_f9qrjs.jpg',
       'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109212/IMG-20260326-WA0026.jpg_nh5zce.jpg',
-      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109212/IMG-20260326-WA0028.jpg_hilzrf.jpg'
+      'https://res.cloudinary.com/dlimc6j71/image/upload/v1775109212/IMG-20260326-WA0028.jpg_hilzrf.jpg',
+      
     ],
     accent: 'cyan'
   }
